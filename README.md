@@ -1,4 +1,5 @@
 # PETCARE 360
+### Autor: Nikolas Martinez Rivera
 
 ---
 
@@ -124,8 +125,65 @@ Para mantener un flujo de trabajo ordenado en equipo, usaremos **GitFlow adaptad
 
 ![Petcare360- Diagrama Contexto.png](docs/images/Petcare360-%20Diagrama%20Contexto.png)
 
+Para el diagrama de contexto, pues se obvio el hecho de tener una base de datos y 
+pues tal como aparece en el diagrama se presentan los usuarios del sistema
+y que hacen con el.
+
 ![Petcare360_Diagrama de Casos.png](docs/images/Petcare360_Diagrama%20de%20Casos.png)
+👩‍💼 `Recepcionista`
+
+- Registrar nuevos clientes en el sistema.
+
+- Registrar las mascotas asociadas a cada cliente.
+
+- Programar citas médicas para las mascotas.
+
+- Asignar veterinarios a las citas médicas.
+
+- Generar facturas por los servicios ofrecidos.
+
+- Registrar ventas realizadas en la clínica.
+
+- Consultar el calendario de citas agendadas.
+
+- Cancelar citas programadas.
+
+- Consultar el historial de facturas emitidas.
+
+👨‍⚕️ `Veterinario`
+
+- Consultar las citas médicas asignadas.
+
+- Cancelar citas, si es necesario.
+
+- Revisar facturas relacionadas con sus servicios.
+
+👤 `Cliente`
+
+- Consultar las citas médicas de sus mascotas.
+
+- Cancelar citas previamente agendadas.
+
+- Revisar sus facturas y estados de cuenta.
+
+
+![Petcare360_Diagrama de Clases.png](docs%2Fimages%2FPetcare360_Diagrama%20de%20Clases.png)
+
+En justificacion se ahonda un poco sobre el diagrama de clases.
 
 ## 🧩 Patrones 
 
+Como tal el unico patron que pense en utilizar fue el Patron Builder.
+
 ### Justificacion
+
+`Builder`
+
+El uso de Builder para la creacion de las facturas es debido a su propia definicion; permite armar un objeto complejo(en este caso la factura)
+paso por paso, en este caso pues cada producto o servicio que venda Petcare360 a sus clientes.
+
+La aplicacion de principios solid en mi diseño se puede evidenciar con el uso de la clase
+abstracta sell por ejemplo, lo cual permite Open/closed de lo que ofrece petcare, asi mismo cada servicio esta
+bien separado, asegurando el Single Responsability, aunque en este diagrama de clases preliminar 
+no se evidencia uso de interfaces para ver el tema de interface segregation, el uso del patron builder
+seguido al pie de la letra con lo academico podria usar ese principio.
