@@ -5,7 +5,7 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-class Veterinarian {
+public class Veterinarian {
     private String id;
     private String name;
     private String specialty;
