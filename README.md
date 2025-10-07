@@ -130,6 +130,7 @@ pues tal como aparece en el diagrama se presentan los usuarios del sistema
 y que hacen con el.
 
 ![Petcare360_Diagrama de Casos.png](docs/images/Petcare360_Diagrama%20de%20Casos.png)
+
 👩‍💼 `Recepcionista`
 
 - Registrar nuevos clientes en el sistema.
@@ -166,10 +167,40 @@ y que hacen con el.
 
 - Revisar sus facturas y estados de cuenta.
 
-
-![Petcare360_Diagrama de Clases.png](docs%2Fimages%2FPetcare360_Diagrama%20de%20Clases.png)
+![Petcare360_Diagrama de Clases (3).png](docs/images/Petcare360_Diagrama%20de%20Clases%20%283%29.png)
 
 En justificacion se ahonda un poco sobre el diagrama de clases.
+
+## 🐢 Diagramas de Secuencia 
+
+- scheduleAppointment
+![img.png](docs/images/img.png)
+
+- getAppointment
+![img_1.png](docs/images/img_1.png)
+
+- cancelAppointment
+![img_2.png](docs/images/img_2.png)
+
+- getAppointmentsByVeterinarian
+![img_3.png](docs/images/img_3.png)
+
+- getAppointmentsByPet
+![img_4.png](docs/images/img_4.png)
+
+
+## Backlog
+
+`LINK:`
+https://nikolas.atlassian.net/jira/software/projects/PC360/boards/34/backlog?atlOrigin=eyJpIjoiNzM3MTc0MGE2ZjgzNGQ4MmEyZmUwNGRkOWFhYmNkMjkiLCJwIjoiaiJ9
+
+![img.png](docs/images/JIRA/img.png)
+
+![img_1.png](docs/images/JIRA/img_1.png)
+![img_2.png](docs/images/JIRA/img_2.png)
+![img_3.png](docs/images/JIRA/img_3.png)
+![img_4.png](docs/images/JIRA/img_4.png)
+![img_5.png](docs/images/JIRA/img_5.png)
 
 ## 🧩 Patrones 
 
